@@ -6,4 +6,76 @@
 
 body {
   font-family: 'Fredoka', sans-serif;
+  padding-top: 1em;
+}
+
+.float-left {
+  float: left;
+}
+
+header {
+  margin-bottom: 3em;
+}
+
+h1 {
+  font-weight: 700;
+  color: #e53170;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.container {
+  max-width: 1500px;
+  /* debug */
+  margin: 0 auto;
+}
+
+.card {
+  width: 400px;
+  /* debug */
+  display: inline-block;
+  height: 100px;
+  background-color: #0f0e17;
+  margin: 0 1em;
+}
+
+/* .card::before {
+  content: url(/img/female1.png)
+} */
+
+#subtitle {
+  /* display: inline-block; */
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.row {
+  margin-bottom: 4em;
+}
+
+div .name {
+  font-weight: 700;
+  color: white;
+}
+
+.role {
+  color: white;
+}
+
+.mail {
+  color: #2ab2ec;
+}
+
+.row p {
+  padding: 8px 3px 4px 120px;
 }
