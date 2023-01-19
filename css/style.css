@@ -13,6 +13,10 @@ body {
   float: left;
 }
 
+.float-right {
+  float: right;
+}
+
 header {
   margin-bottom: 3em;
 }
@@ -29,8 +33,7 @@ img {
 }
 
 .container {
-  max-width: 1500px;
-  /* debug */
+  max-width: 1306px;
   margin: 0 auto;
 }
 
@@ -42,10 +45,6 @@ img {
   background-color: #0f0e17;
   margin: 0 1em;
 }
-
-/* .card::before {
-  content: url(/img/female1.png)
-} */
 
 #subtitle {
   /* display: inline-block; */
@@ -79,3 +78,8 @@ div .name {
 .row p {
   padding: 8px 3px 4px 120px;
 }
+
+/* tentativo fallito
+.card::before {
+  content: url(/img/female1.png)
+} */
